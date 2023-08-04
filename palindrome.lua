@@ -48,5 +48,5 @@ local userWord = io.read()
 local meta = palindrome( userWord )
 
 print(
-	("This word(%s) is %s palindrome"):format( userWord, meta:isPalindrome() )
+	("This word(%s) is %s palindrome"):format( userWord, tostring(meta:isPalindrome()) )
 )
